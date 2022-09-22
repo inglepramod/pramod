@@ -1,0 +1,16 @@
+{fields.map((f,index) =>{
+                 return <isDocumentRequiredAppVerType index={index} control=[control]/>
+          }
+            
+              
+
+
+ {visibel ? fields.map((f, index) => {
+            return <DocumentRequiredAppVerType index={index} control={control} />
+          }) : 
+		  
+		  
+		  
+		  {visibel ? fields.map((f, index) => {
+            return <DocumentRequiredAppVerType index={index} control={control} />
+          }) : ''}
